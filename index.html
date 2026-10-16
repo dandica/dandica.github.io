@@ -2,22 +2,177 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>dandica.github.io</title>
-  <style>
-    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; max-width: 40rem; margin: 4rem auto; padding: 0 1rem; color:#111 }
-    header { text-align: center; margin-bottom: 2rem }
-    a { color: #0366d6 }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f7f2">
+  <meta name="description" content="David Sahagun is a UC Davis Cognitive Science graduate combining behavioral research, R and Python analysis, and practical team and customer experience. Explore academic analytical projects and selected work.">
+  <meta property="og:title" content="David Sahagun | Research, Analytics & Problem Solving">
+  <meta property="og:description" content="Behavioral science, computational analysis, and people-centered problem solving. Selected projects and experience.">
+  <meta property="og:type" content="website">
+  <title>David Sahagun — Research, Analytics & Problem Solving</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to dandica.github.io</h1>
-    <p>Powered by GitHub Pages — initial commit created by Copilot.</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="David Sahagun, back to top">
+        <span class="brand-mark" aria-hidden="true">ds<span>.</span></span>
+        <span class="brand-text">David Sahagun<span class="brand-sub">Research · Analytics · People</span></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <p>This is the default user site for <strong>dandica</strong>. Edit <code>index.html</code> to customize your site.</p>
-    <p>Visit the site at <a href="https://dandica.github.io" target="_blank">https://dandica.github.io</a> once GitHub Pages finishes building.</p>
+
+  <main id="main">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> UC Davis Cognitive Science · Computational Emphasis</p>
+        <h1 id="hero-title">Curiosity for <em>people.</em><br>Rigor with <em>data.</em></h1>
+        <p class="hero-lede">I'm David—a Cognitive Science graduate interested in why people make the choices they do and how research can improve the systems around them. I combine psychology, statistics, and programming with years of hands-on experience solving problems and working with people.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-text" href="https://www.linkedin.com/in/david-sahagun-ucd/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta" aria-label="Areas of interest"><span>Research</span><span>Analytics</span><span>Consulting</span><span>Operations</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-topline"><span>FEATURED WORK / 01</span><span>PYTHON · MACHINE LEARNING</span></div>
+        <div class="geometry" role="img" aria-label="Illustrative diagram of a projected four-corner gate, representing the geometric features used in an academic machine-learning project. Not original project data.">
+          <svg viewBox="0 0 500 340" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="shapeFill" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#b8cbc6" stop-opacity=".72"/><stop offset="1" stop-color="#d8e3df" stop-opacity=".15"/></linearGradient>
+            </defs>
+            <g stroke="#d9e0db" stroke-width="1"><path d="M40 50 H460M40 110 H460M40 170 H460M40 230 H460M40 290 H460"/><path d="M80 25 V315M150 25 V315M220 25 V315M290 25 V315M360 25 V315M430 25 V315"/></g>
+            <path d="M152 92 L354 67 L397 260 L118 274 Z" fill="url(#shapeFill)" stroke="#1d494a" stroke-width="3"/>
+            <path d="M152 92 L397 260M354 67 L118 274" stroke="#577a77" stroke-width="1.5" stroke-dasharray="7 7"/>
+            <circle cx="255" cy="174" r="8" fill="#f7f7f2" stroke="#1d494a" stroke-width="2.6"/>
+            <g fill="#1d494a" stroke="#f7f7f2" stroke-width="4"><circle cx="152" cy="92" r="8"/><circle cx="354" cy="67" r="8"/><circle cx="397" cy="260" r="8"/><circle cx="118" cy="274" r="8"/></g>
+            <g fill="#476764" font-family="system-ui, sans-serif" font-size="13" font-weight="600"><text x="113" y="77">(x₁, y₁)</text><text x="368" y="55">(x₂, y₂)</text><text x="407" y="283">(x₃, y₃)</text><text x="46" y="296">(x₄, y₄)</text><text x="270" y="180">center</text></g>
+          </svg>
+        </div>
+        <div class="visual-bottom">
+          <div><strong>3,007</strong><span>Simulated observations</span></div>
+          <div><strong>0.981</strong><span>Held-out depth R²</span></div>
+        </div>
+        <p class="visual-footnote">Academic team project · Simplified illustrative geometry</p>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Selected background">
+      <div class="shell proof-inner">
+        <div class="proof-item"><span class="proof-number">B.S.</span><span>UC Davis<br>Cognitive Science</span></div>
+        <div class="proof-item"><span class="proof-number">R + Python</span><span>Research, statistics<br>& model evaluation</span></div>
+        <div class="proof-item"><span class="proof-number">6+ years</span><span>Team coordination<br>& customer experience</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section shell about-section" aria-labelledby="about-title">
+      <div class="section-heading"><p class="section-kicker">01 / PERSPECTIVE</p><h2 id="about-title">The question comes <em>first.</em></h2></div>
+      <div class="about-grid">
+        <div class="about-intro"><p>I'm drawn to work that connects human behavior with careful analysis. My degree brought together psychology, computer science, research methods, and statistics. Working in high-volume operations taught me that even a strong solution needs clear communication, good judgment, and people who can put it into practice.</p></div>
+        <div class="principles">
+          <article><span class="principle-index">01</span><div><h3>Understand the context</h3><p>Ask what influences a decision, what the data represents, and which questions actually matter.</p></div></article>
+          <article><span class="principle-index">02</span><div><h3>Challenge the assumption</h3><p>Investigate anomalies, test alternatives, and be explicit about what the evidence cannot establish.</p></div></article>
+          <article><span class="principle-index">03</span><div><h3>Make the finding useful</h3><p>Translate technical work into explanations and next steps that teammates and decision-makers can understand.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section section-tinted" aria-labelledby="work-title">
+      <div class="shell">
+        <div class="section-heading project-head"><div><p class="section-kicker">02 / SELECTED ACADEMIC WORK</p><h2 id="work-title">Questions, methods, <em>decisions.</em></h2></div><p class="section-side">Coursework and academic team projects—not professional research employment. My contributions are distinguished from team results below.</p></div>
+        <article class="featured-project" aria-labelledby="project-gate">
+          <div class="project-header"><div><p class="project-number">CASE STUDY / 01 <span>·</span> FOUR-PERSON UC DAVIS TEAM</p><h3 id="project-gate">Machine Learning for Underwater Gate Localization</h3><p class="project-summary">Can a robot estimate a gate's depth and orientation from four detected image corners, without the original image?</p></div><a class="project-link" href="https://github.com/deviamar/ML-for-Underwater-Gate-Localization" target="_blank" rel="noopener noreferrer">View team repository <span aria-hidden="true">↗</span></a></div>
+          <div class="project-body">
+            <div class="project-story">
+              <h4>My contributions</h4>
+              <ul class="check-list">
+                <li>Helped prepare and validate 3,007 simulated observations, including investigating negative coordinates that proved to be valid partially out-of-frame views.</li>
+                <li>Helped engineer geometric features from four gate corners and compare linear regression, random forest, and neural-network approaches.</li>
+                <li>Contributed to held-out evaluation, cross-validation, robustness testing, and interpretation of model limitations.</li>
+              </ul>
+              <div class="takeaway"><span class="takeaway-label">ANALYTICAL JUDGMENT</span><p>Depth was predictable from the available inputs; orientation was not. Our team recommended against using the unreliable yaw estimator rather than overstating what the data could support.</p></div>
+              <div class="tags" aria-label="Methods and tools"><span>Python</span><span>pandas</span><span>scikit-learn</span><span>PyTorch</span><span>Feature engineering</span><span>Validation</span></div>
+            </div>
+            <div class="results" aria-label="Selected model results from the academic team project">
+              <p class="result-eyebrow">WHAT THE TEAM FOUND</p>
+              <div class="result-feature"><span>Optimized random forest · depth</span><div><strong>0.981</strong><small>R² on held-out data</small></div><p>RMSE <b>10.86 cm</b> · MAE <b>7.51 cm</b></p></div>
+              <div class="bar-chart" role="img" aria-label="R squared comparison for predicting depth: raw linear regression 0.063, random forest using raw corners 0.936, full-feature random forest 0.982, optimized random forest 0.981, and multilayer perceptron using engineered features 0.976. These are team results on the reported data.">
+                <div class="bar-title">DEPTH MODEL COMPARISON <span>R²</span></div>
+                <div class="bar-row"><span>Linear · raw</span><div class="bar-track"><i style="width:6.3%"></i></div><b>0.063</b></div>
+                <div class="bar-row"><span>Forest · raw</span><div class="bar-track"><i style="width:93.6%"></i></div><b>0.936</b></div>
+                <div class="bar-row"><span>Forest · full</span><div class="bar-track"><i style="width:98.2%"></i></div><b>0.982</b></div>
+                <div class="bar-row emphasized"><span>Forest · optimized</span><div class="bar-track"><i style="width:98.1%"></i></div><b>0.981</b></div>
+                <div class="bar-row"><span>MLP · features</span><div class="bar-track"><i style="width:97.6%"></i></div><b>0.976</b></div>
+                <p class="chart-caption">Configurations are distinct. The full-feature and optimized random forest results should not be conflated.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="secondary-grid">
+          <article class="secondary-card" aria-labelledby="project-census">
+            <div class="secondary-card-top"><span>CASE STUDY / 02</span><span>R · IPUMS USA</span></div>
+            <h3 id="project-census">Education & Geographic Patterns, 1940–1990</h3>
+            <p>Using historical U.S. Census microdata, a four-person team examined how the geographic distribution of western-born adults differed across time and demographic groups.</p>
+            <div class="timeline" aria-label="Census years 1940 through 1990"><span>1940</span><span class="timeline-line" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span><span>1990</span></div>
+            <div class="card-divider"></div>
+            <h4>My contributions</h4>
+            <p>Helped recode variables, address missing values, and calculate person-weighted summaries. Personally created animated choropleth maps showing the share of western-born adults by state, education, race, sex, and year, and contributed interpretations to the team report.</p>
+            <div class="tags" aria-label="Project skills"><span>R</span><span>ggplot2</span><span>Data recoding</span><span>Weighted summaries</span><span>Maps</span></div>
+            <p class="card-note">UC Davis STS 112 · Academic team project</p>
+          </article>
+          <article class="secondary-card" aria-labelledby="project-review">
+            <div class="secondary-card-top"><span>CASE STUDY / 03</span><span>RESEARCH SYNTHESIS</span></div>
+            <h3 id="project-review">Emotion Recognition in Human–Computer Interaction</h3>
+            <p>For an independent scientific writing assignment, I examined how different AI approaches to emotion recognition perform—and where they fall short when real-world inputs are incomplete or noisy.</p>
+            <div class="review-graphic" aria-label="Research review of seven peer-reviewed studies"><strong>07</strong><div><span>PEER-REVIEWED STUDIES</span><p>Modalities · Model architectures · Evaluation · Limitations</p></div></div>
+            <div class="card-divider"></div>
+            <h4>My contributions</h4>
+            <p>Independently synthesized seven studies into an approximately 12-page literature review, comparing methods and identifying a need for more context-sensitive and robust multimodal systems.</p>
+            <div class="tags" aria-label="Project skills"><span>Literature review</span><span>Technical writing</span><span>Human behavior</span><span>HCI</span></div>
+            <p class="card-note">UC Davis UWP 104E · Independent academic paper</p>
+          </article>
+        </div>
+        <div class="coursework-note"><span class="note-icon" aria-hidden="true">+</span><div><h3>Additional analytical practice</h3><p>Completed 40+ R notebooks across statistics and data-analysis coursework, involving cleaning and recoding, descriptive and inferential analysis, visualizations, and written interpretation. Designed and analyzed small surveys in statistics coursework.</p></div></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section shell experience-section" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="section-kicker">03 / EXPERIENCE</p><h2 id="experience-title">People skills are <em>part of the work.</em></h2></div>
+      <div class="experience-grid">
+        <div class="experience-intro"><p class="work-role">In-N-Out Burger</p><h3>Level 5 Associate</h3><p class="work-tenure">More than six years · Lodi & Davis, California</p><p>Service work taught me to stay attentive to people and details when priorities change quickly, and to communicate in ways that help the team move forward.</p></div>
+        <div class="experience-items">
+          <article><span class="experience-icon" aria-hidden="true">01</span><div><h4>Spot problems and coordinate a response</h4><p>Monitored ticket times, order volume, and station workload; recognized bottlenecks and helped redirect attention during busy shifts.</p></div></article>
+          <article><span class="experience-icon" aria-hidden="true">02</span><div><h4>Explain, train, and adapt</h4><p>Trained and mentored coworkers on procedures and quality standards, adjusting explanations to different experience levels.</p></div></article>
+          <article><span class="experience-icon" aria-hidden="true">03</span><div><h4>Listen and resolve issues</h4><p>Helped customers and coworkers work through service or production problems while balancing other time-sensitive responsibilities.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" aria-labelledby="skills-title">
+      <div class="shell skills-inner">
+        <div><p class="section-kicker">04 / TOOLKIT</p><h2 id="skills-title">Methods I work with.</h2><p>Experience from coursework and academic projects, rather than claims of professional analyst employment.</p></div>
+        <div class="skills-list">
+          <div><h3>Programming & analysis</h3><p>Python · R · pandas · NumPy · scikit-learn · PyTorch · tidyverse · ggplot2</p></div>
+          <div><h3>Research & data</h3><p>Data validation · Statistical analysis · Regression · Model evaluation · Survey methods · Literature synthesis</p></div>
+          <div><h3>Communication & collaboration</h3><p>Technical reports · Data visualization · Presentations · Associate training · Customer problem-solving · Spanish (fluent)</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="shell contact-inner"><div><p class="section-kicker">05 / CONTACT</p><h2 id="contact-title">Let's work on questions <em>worth answering.</em></h2><p>I'm interested in opportunities across research, analytics, consulting, and operations where careful thinking and communication can make a practical difference.</p></div><div class="contact-actions"><a href="mailto:david.sahagun1@outlook.com" class="button button-light">Email me <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/david-sahagun-ucd/" target="_blank" rel="noopener noreferrer" class="contact-link">Connect on LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/deviamar/ML-for-Underwater-Gate-Localization" target="_blank" rel="noopener noreferrer" class="contact-link">View academic team repository <span aria-hidden="true">↗</span></a></div></div>
+    </section>
   </main>
+  <footer class="footer"><div class="shell footer-inner"><span>© <span id="current-year">2026</span> David Sahagun</span><span>Built to make the work understandable.</span><a href="#top">Back to top ↑</a></div></footer>
+  <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
